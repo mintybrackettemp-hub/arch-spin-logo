@@ -7,7 +7,7 @@ set -euo pipefail   # die on errors & undefined vars — very based
 
 echo -e "\n🚀 [1/5] Cloning 3d-ascii-viewer (the goat ascii 3d renderer) 🔥"
 git clone https://github.com/autopawn/3d-ascii-viewer.git ~/3d-ascii-viewer || {
-    echo "❌ git clone failed... you good bro?"
+    echo "❌ git clone failed... try running: rm -rf ~/3d-ascii-viewer"
     exit 1
 }
 
