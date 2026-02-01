@@ -50,14 +50,9 @@ cd ~
 rm -rf arch-spin-logo
 echo "   gone. very clean. much wow."
 
-echo -e "\n⌨️  [5/5] Creating permanent archspin command"
+echo -e "\n⌨️  [5/5] Creating temporary archspin command"
 
-cat << 'EOF' > ~/.local/bin/archspin
-#!/usr/bin/env bash
-~/3d-ascii-viewer/3d-ascii-viewer ~/arch-logo.obj
-EOF
-
-chmod +x ~/.local/bin/archspin
+alias archspin='~/3d-ascii-viewer/3d-ascii-viewer ~/arch-logo.obj'
 
 echo ""
 echo "🎉 Done frfr!"
@@ -65,9 +60,7 @@ echo ""
 echo "   Now just type → archspin"
 echo ""
 echo "   To make it work forever (even after reboot):"
-echo "   1. Make sure ~/.local/bin is in your PATH"
-echo "      (on Arch it usually already is — check echo \$PATH)"
-echo "   2. Or just add this line to your ~/.bashrc / ~/.zshrc / ~/.config/fish/config.fish"
+echo "   1. just add this line to your ~/.bashrc / ~/.zshrc / ~/.config/fish/config.fish"
 echo ""
 echo "      alias archspin='~/3d-ascii-viewer/3d-ascii-viewer ~/arch-logo.obj'"
 echo ""
