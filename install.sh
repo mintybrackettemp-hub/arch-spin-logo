@@ -56,11 +56,7 @@ alias archspin='~/3d-ascii-viewer/3d-ascii-viewer ~/arch-logo.obj'
 
 echo ""
 echo "🎉 Done frfr!"
-echo ""
-echo "   Now just type → archspin"
-echo ""
-echo "   To make it work forever (even after reboot):"
-echo "   1. just add this line to your ~/.bashrc / ~/.zshrc / ~/.config/fish/config.fish"
+echo "      Just add this line to your ~/.bashrc / ~/.zshrc / ~/.config/fish/config.fish / your shell config path"
 echo ""
 echo "      alias archspin='~/3d-ascii-viewer/3d-ascii-viewer ~/arch-logo.obj'"
 echo "      If it does nothing , the cd command has probably failed, just type : cd ~"
