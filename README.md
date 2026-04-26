@@ -12,3 +12,7 @@ After you have done the setup, simply run:
 ```bash
 archspin
 ```
+
+## Quick Note
+
+If you use artix, you aren't limited to this option, check out the artix spinning logo repo i made, yes, it offers a artix logo, with an lightweight installation guide with no script file needed
